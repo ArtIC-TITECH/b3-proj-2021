@@ -27,7 +27,7 @@
 続いて、別のタブで[Google Drive](https://drive.google.com/drive/my-drive)にアクセスして、Colab Notebooksという名のディレクトリが生成されていることを確認する。
 このディレクトリ直下にノートブックが保存されていくことになる。
 のちに、自作のモジュールを読み込めるように`My Drive/Colab Notebooks/b3_proj_2021/MyModules`の構造でディレクトリを作成しておく。
-![image.png](./fig/01_drive.png)
+![image.png](./fig/01_drive.png?raw=true)
 
 
 <!-- ## JupyterHub へのログイン
@@ -48,7 +48,7 @@ Jupyter はブラウザ上で Python のプログラムを書き、逐一実行�
 作成されるファイルは `Untitled` という名前になるので、これを rename して `01_tutorial` 等、試した順番と内容がわかる名前に変更する。
 
 
-![image.png](./fig/01_rename.png)
+![image.png](./fig/01_rename.png?raw=true)
 
 以降、現れたセルにコードを打ち込み、 Shift-Return で逐次実行、実行ボタンで一括実行ができる。
 これでエラーやバグと戦いながらチュートリアルを進めてゆく。
@@ -69,7 +69,7 @@ datasets.CIFAR10(root='./data', train=......)
 は`./data`にデータセットを保存することを意味するが
 このディレクトリはランタイムが切断されるたびに初期状態にリセットされデータが消える。
 実行時に毎回ダウンロードする(数秒かかる)のを防ぐために、自身のGoogle Driveにデータセットを保存することができる。
-![image.png](./fig/01_dataset.png)
+![image.png](./fig/01_dataset.png?raw=true)
 図の手順でGoogle Driveに接続するとランタイムの接続が切れてもデータが保存されたままになる。
 
 ```python:
@@ -102,12 +102,12 @@ torch.save(net.state_dict(), PATH)
 
 今 Colab が動作している計算サーバはデフォルトではCPU実行になっている。
 GPUを利用するにはノートブックごとに設定する必要がある。
-![image.png](./fig/01_gpu.png)
+![image.png](./fig/01_gpu.png?raw=true)
  *ランタイム → ラインタイムのタイプを変更 → GPU*　を選択することでGPUを使用することができる。
 これはノートブック毎に設定しなければならないので、次回以降忘れないように注意する。
 
 最初の `import` のセルを実行したあと、左上の *+コード* ボタンを押して空のセルを作る。
-![image.png](./fig/01_addcell.png)
+![image.png](./fig/01_addcell.png?raw=true)
 
 作ったセルにチュートリアルの
 ```python:
