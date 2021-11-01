@@ -293,7 +293,7 @@ class Net(nn.Module):
 
 ### VGG11 の実装とカスタマイズ
 VGG11とはモデル構造の名称である。シンプルな構造であるがゆえに広く使われる。
-ArtICのGitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021) の [`Exercise01/01_01_vgg.ipynb`](../Exercise01/01_01_vgg.ipynb) に少しUIを改善したチュートリアルを置いた。Google Colabにて *ファイル → ノートブックを開く → GitHub* と進み上記のURLを入力すると開ける。
+[ArtICのGitHub](https://github.com/ArtIC-TITECH/b3-proj-2021) の [`Exercise01/01_01_vgg.ipynb`](../Exercise01/01_01_vgg.ipynb) に少しUIを改善したチュートリアルを置いた。Google Colabにて *ファイル → ノートブックを開く → GitHub* と進み上記のURLを入力すると開ける。
 これを自分のDriveに保存して、改造しVGG11モデルを作って学習させてみると良い。
 実行時にランタイムの種類をGPUにするのを忘れずに。
 既に上で述べたモデル改造の要素は入れてあるが、わざと未完成にしてあるので、 [参考ページ](https://qiita.com/MuAuan/items/86a56637a1ebf455e180) 等をみながらVGG11（参考サイトのTable 1の左端の列。 *Conv3-512* は *カーネルサイズ3, 出力チャネル512のConv2d* を意味している）を実装してみる。
