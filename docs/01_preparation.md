@@ -301,7 +301,7 @@ VGG11とはモデル構造の名称である。シンプルな構造であるが
 それが終わったら（おそらくそのままではあまり思った精度は出ないので）別ファイルに保存し、モデルをカスタマイズをしてみる。
 
 
-### 追記
+## 追記
 本日使っていた参考のページ：
 - [PyTorch Documentation(Conv2d)](https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html)
 - [CNNの説明（アニメーション付き）](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
