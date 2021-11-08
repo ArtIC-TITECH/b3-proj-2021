@@ -13,7 +13,7 @@
 ## 準備
 前回実装したVGGを使用してよい。
 ただ、1度の学習に時間がかかるので以下にコンパクトなモデルを置いておくので、こちらを使用しても良い。
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021)  `Exercise02/02_01_visualizer.ipynb`
+[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021) の [`Exercise02/02_01_visualizer.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise02/02_01_visualizer.ipynb)
 
 ## 公式チュートリアル
 [https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html](https://pytorch.org/tutorials/intermediate/tensorboard_tutorial.html)
