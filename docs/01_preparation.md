@@ -198,7 +198,7 @@ loss.backward()
 
 ### 自分のモデルを作る
 `Conv2d` のイニシャライザ引数は `Conv2d(入力チャネル, 出力チャネル, カーネルサイズ)` である ([公式リファレンス](https://pytorch.org/docs/stable/nn.html#conv2d))。
-チュートリアルでは使っていないが、 `floor(カーネルサイズ / 2)` （つまりカーネルサイズが3だったら1、5だったら2）を `padding` 引数に指定し、畳込みの前後で shape が変わらないようにするのが一般的である（この設定を資料によって、具体的には TensorFlow などは *valid convolution* と呼んでいる）。
+チュートリアルでは使っていないが、 `floor(カーネルサイズ / 2)` （つまりカーネルサイズが3だったら1、5だったら2）を `padding` 引数に指定し、畳込みの前後で shape が変わらないようにするのが一般的である。
 必要ならば `stride` 引数を指定してストライドを使うこともできる。
 ```python:
 self.conv1 = nn.Conv2d(3, 32, 3, padding=1)  # 入力3→出力32, カーネル3, パディング1
@@ -293,7 +293,7 @@ class Net(nn.Module):
 
 ### VGG11 の実装とカスタマイズ
 VGG11とはモデル構造の名称である。シンプルな構造であるがゆえに広く使われる。
-ArtICのGitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021) の `Exercise01/01_01_vgg.ipynb` に少しUIを改善したチュートリアルを置いた。Google Colabにて *ファイル → ノートブックを開く → GitHub* と進み上記のURLを入力すると開ける。
+[ArtICのGitHub](https://github.com/ArtIC-TITECH/b3-proj-2021) の [`Exercise01/01_01_vgg.ipynb`](../Exercise01/01_01_vgg.ipynb) に少しUIを改善したチュートリアルを置いた。Google Colabにて *ファイル → ノートブックを開く → GitHub* と進み上記のURLを入力すると開ける。
 これを自分のDriveに保存して、改造しVGG11モデルを作って学習させてみると良い。
 実行時にランタイムの種類をGPUにするのを忘れずに。
 既に上で述べたモデル改造の要素は入れてあるが、わざと未完成にしてあるので、 [参考ページ](https://qiita.com/MuAuan/items/86a56637a1ebf455e180) 等をみながらVGG11（参考サイトのTable 1の左端の列。 *Conv3-512* は *カーネルサイズ3, 出力チャネル512のConv2d* を意味している）を実装してみる。
@@ -301,3 +301,9 @@ ArtICのGitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com
 それが終わったら（おそらくそのままではあまり思った精度は出ないので）別ファイルに保存し、モデルをカスタマイズをしてみる。
 
 
+## 追記
+本日使っていた参考のページ：
+- [PyTorch Documentation(Conv2d)](https://pytorch.org/docs/stable/generated/torch.nn.Conv2d.html)
+- [CNNの説明（アニメーション付き）](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+- [Sobel Filter (畳み込みを使った画像処理の説明で出ていました)](https://www.mitani-visual.jp/mivlog/imageprocessing/sobel001.php)
+- [CIFAR10精度比較](https://paperswithcode.com/sota/image-classification-on-cifar-10)
