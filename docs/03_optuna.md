@@ -78,7 +78,7 @@ Google ColabにはOptunaがインストールされていないため、最初�
 ```
 ランタイムの接続がきれる度にインストールする必要がある。
 演習ではOptunaを使うのは今回だけだが、毎回わずらわしければGoogle Driveに保存してそこから読み込むこともできる。
-[外部サイト](https://ggcs.io/2021/06/22/google-colab-pip-install/)
+[外部サイト](https://ggcs.io/2020/06/22/google-colab-pip-install/)
 
 ### Optuna対応の基本
 これを順に進めてもらう。
