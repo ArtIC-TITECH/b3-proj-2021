@@ -20,9 +20,9 @@
 
 ### プログラムのデプロイ
 Google Colabで以下のファイルを開き自分のGoogle Driveにコピーを保存する。
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021)
-`Exercise03/03_01_template.ipynb`
-`Exercise03/03_02_template_prune.ipynbb`
+[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)の
+[`Exercise03/03_01_template.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_01_template.ipynb)
+[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_02_template_prune.ipynb)
 
 また、[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/main/Exercise03/util.py)を`My Drive/Colab Notebooks/b3_proj_2021/MyModules'`にアップロードする。
 方法例として
@@ -109,7 +109,8 @@ if optim_type == 'adam':
 ### Prunerの使用
 
 テンプレートは
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021) `Exercise03/03_02_template_prune.ipynbb`を使用する。
+[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)の
+[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_02_template_prune.ipynb)を使用する。
 
 Optunaのもう一つ強力な機能にPrunerという機能がある。学習の進行中に、過去の学習Trialの履歴と比較して精度が良くないと判断されるとそのTrialを中断して次の試行に移るという機能である。膨大なパラメータ空間を扱う際に有用である。
 
