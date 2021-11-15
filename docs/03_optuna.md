@@ -21,15 +21,15 @@
 ### プログラムのデプロイ
 Google Colabで以下のファイルを開き自分のGoogle Driveにコピーを保存する。
 [ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)の
-[`Exercise03/03_01_template.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_01_template.ipynb)
-[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_02_template_prune.ipynb)
+[`Exercise03/03_01_template.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise03/03_01_template.ipynb)
+[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise03/03_02_template_prune.ipynb)
 
-また、[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/main/Exercise03/util.py)を`My Drive/Colab Notebooks/b3_proj_2021/MyModules'`にアップロードする。
+また、[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise03/util.py)を`My Drive/Colab Notebooks/b3_proj_2021/MyModules'`にアップロードする。
 方法例として
 1. Google ColabでGoogle Driveをマウント
 2. `!touch ./drive/My\ Drive/Colab\ Notebooks/b3_proj_2021/MyModules/util.py`をセルで実行
 3. 左のメニューバーから`util.py`を探してダブルクリックすることで、右側にエディタを開く。
-3. 別のタブで[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/main/Exercise03/util.py)を開き、本文全体をコピーして、Colabのエディタ(右側)に貼り付けて保存する。(Mac: ⌘+s, Windows: Ctrl+s)
+3. 別のタブで[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise03/util.py)を開き、本文全体をコピーして、Colabのエディタ(右側)に貼り付けて保存する。(Mac: ⌘+s, Windows: Ctrl+s)
 
 
 
@@ -110,7 +110,7 @@ if optim_type == 'adam':
 
 テンプレートは
 [ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)の
-[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/Exercise03/03_02_template_prune.ipynb)を使用する。
+[`Exercise03/03_02_template_prune.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise03/03_02_template_prune.ipynb)を使用する。
 
 Optunaのもう一つ強力な機能にPrunerという機能がある。学習の進行中に、過去の学習Trialの履歴と比較して精度が良くないと判断されるとそのTrialを中断して次の試行に移るという機能である。膨大なパラメータ空間を扱う際に有用である。
 
