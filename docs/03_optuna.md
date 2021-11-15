@@ -114,7 +114,7 @@ if optim_type == 'adam':
 
 Optunaのもう一つ強力な機能にPrunerという機能がある。学習の進行中に、過去の学習Trialの履歴と比較して精度が良くないと判断されるとそのTrialを中断して次の試行に移るという機能である。膨大なパラメータ空間を扱う際に有用である。
 
-この使い方の基本は以下の通りである。 [公式チュートリアル](https://optuna.readthedocs.io/en/stable/tutorial/pruning.html) も参照。
+この使い方の基本は以下の通りである。 [公式チュートリアル](https://optuna.readthedocs.io/en/stable/tutorial/20_recipes/006_user_defined_pruner.html) も参照。
 
 - `optuna.Pruner` クラスのサブクラスのインスタンスを生成。各種アルゴリズムが揃っている（[公式リファレンス](https://optuna.readthedocs.io/en/stable/reference/pruners.html)）
     - `MedianPruner`: 同一エポックの結果における中央値より低いTrialを中断
