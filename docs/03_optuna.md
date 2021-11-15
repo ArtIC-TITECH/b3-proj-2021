@@ -1,7 +1,7 @@
 第3回: Optunaによる自動パラメータ探索
 ===
 
-「2020年度 B3研究プロジェクト 〜 PyTorchによるニューラルネットワーク実装と環境構築の演習」
+「2021年度 B3研究プロジェクト 〜 PyTorchによるニューラルネットワーク実装と環境構築の演習」
 
 
 ## 概略
@@ -20,16 +20,16 @@
 
 ### プログラムのデプロイ
 Google Colabで以下のファイルを開き自分のGoogle Driveにコピーを保存する。
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2020](https://github.com/ArtIC-TITECH/b3-proj-2020)
+ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021)
 `Exercise03/03_01_template.ipynb`
 `Exercise03/03_02_template_prune.ipynbb`
 
-また、[util.py](https://github.com/ArtIC-TITECH/b3-proj-2020/blob/main/Exercise03/util.py)を`My Drive/Colab Notebooks/b3_proj_2020/MyModules'`にアップロードする。
+また、[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/main/Exercise03/util.py)を`My Drive/Colab Notebooks/b3_proj_2021/MyModules'`にアップロードする。
 方法例として
 1. Google ColabでGoogle Driveをマウント
-2. `!touch ./drive/My\ Drive/Colab\ Notebooks/b3_proj_2020/MyModules/util.py`をセルで実行
+2. `!touch ./drive/My\ Drive/Colab\ Notebooks/b3_proj_2021/MyModules/util.py`をセルで実行
 3. 左のメニューバーから`util.py`を探してダブルクリックすることで、右側にエディタを開く。
-3. 別のタブで[util.py](https://github.com/ArtIC-TITECH/b3-proj-2020/blob/main/Exercise03/util.py)を開き、本文全体をコピーして、Colabのエディタ(右側)に貼り付けて保存する。(Mac: ⌘+s, Windows: Ctrl+s)
+3. 別のタブで[util.py](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/main/Exercise03/util.py)を開き、本文全体をコピーして、Colabのエディタ(右側)に貼り付けて保存する。(Mac: ⌘+s, Windows: Ctrl+s)
 
 
 
@@ -78,7 +78,7 @@ Google ColabにはOptunaがインストールされていないため、最初�
 ```
 ランタイムの接続がきれる度にインストールする必要がある。
 演習ではOptunaを使うのは今回だけだが、毎回わずらわしければGoogle Driveに保存してそこから読み込むこともできる。
-[外部サイト](https://ggcs.io/2020/06/22/google-colab-pip-install/)
+[外部サイト](https://ggcs.io/2021/06/22/google-colab-pip-install/)
 
 ### Optuna対応の基本
 これを順に進めてもらう。
@@ -109,7 +109,7 @@ if optim_type == 'adam':
 ### Prunerの使用
 
 テンプレートは
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2020](https://github.com/ArtIC-TITECH/b3-proj-2020) `Exercise03/03_02_template_prune.ipynbb`を使用する。
+ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2021](https://github.com/ArtIC-TITECH/b3-proj-2021) `Exercise03/03_02_template_prune.ipynbb`を使用する。
 
 Optunaのもう一つ強力な機能にPrunerという機能がある。学習の進行中に、過去の学習Trialの履歴と比較して精度が良くないと判断されるとそのTrialを中断して次の試行に移るという機能である。膨大なパラメータ空間を扱う際に有用である。
 
