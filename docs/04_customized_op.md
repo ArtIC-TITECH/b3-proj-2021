@@ -1,7 +1,7 @@
 第4回: 演算ライブラリのカスタマイズ1 〜 Python実装
 ===
 
-「2020年度 B3研究プロジェクト 〜 PyTorchによるニューラルネットワーク実装と環境構築の演習」
+「2021年度 B3研究プロジェクト 〜 PyTorchによるニューラルネットワーク実装と環境構築の演習」
 
 
 ## 概略
@@ -21,8 +21,8 @@
 
 ### プログラムのデプロイ
 Google Colabで以下のファイルを開き自分のGoogle Driveに保存する。
-ArtIC GitHub [https://github.com/ArtIC-TITECH/b3-proj-2020](https://github.com/ArtIC-TITECH/b3-proj-2020)
-`Exercise04/04_01_temp.ipynb`
+[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)　の　[`Exercise04/04_01_temp.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise04/04_01_temp.ipynb)
+
 
 
 ## 演習課題の進行
