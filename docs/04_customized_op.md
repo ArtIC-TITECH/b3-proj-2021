@@ -21,7 +21,7 @@
 
 ### プログラムのデプロイ
 Google Colabで以下のファイルを開き自分のGoogle Driveに保存する。
-[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)　の　[`Exercise04/04_01_temp.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise04/04_01_temp.ipynb)
+[ArtIC GitHub](https://github.com/ArtIC-TITECH/b3-proj-2021)の[`Exercise04/04_01_temp.ipynb`](https://github.com/ArtIC-TITECH/b3-proj-2021/blob/master/Exercise04/04_01_temp.ipynb)
 
 
 
